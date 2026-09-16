@@ -75,5 +75,5 @@ The site uses these tables:
 
 ## Author
 
-**LinkedIn**
+**LinkedIn:**
 https://www.linkedin.com/in/xavier-jolly-80017320a · Email: xmjolly@gmail.com
