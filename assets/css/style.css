@@ -1,0 +1,160 @@
+/* Product card images */
+.product-card img {
+    height: 210px;
+    object-fit: cover;
+}
+
+/* Product detail page image */
+.detail-img {
+    max-height: 380px;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Admin sidebar */
+.admin-sidebar {
+    min-height: 100vh;
+}
+
+/* Footer spacing */
+.footer {
+    margin-top: 60px;
+}
+
+/* Admin table action buttons */
+.table-actions a {
+    margin-right: 6px;
+}
+
+/* Navbar logo */
+.site-logo {
+    width: 45px !important;
+    height: 45px !important;
+    max-width: 45px !important;
+    max-height: 45px !important;
+    object-fit: contain;
+    background-color: white;
+    border-radius: 50%;
+    padding: 3px;
+}
+
+/* Cart item images */
+.cart-img {
+    width: 65px;
+    height: 65px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Cart badge */
+.cart-count-badge {
+    font-size: 12px;
+}
+
+/* Home page image slider */
+.slider-only-image {
+    height: 450px;
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+    background-color: #140000;
+}
+
+/* Carousel styling */
+.carousel {
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #140000;
+}
+
+.carousel-item {
+    background-color: #140000;
+}
+
+/* Optional: product cards hover effect */
+.product-card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.18);
+}
+
+/* Address autocomplete helper styling */
+.address-suggestions {
+    background-color: #d8f1df;
+    border: 1px solid #9ed3af;
+    border-radius: 6px;
+    padding: 15px;
+    margin-top: 8px;
+}
+
+.address-suggestions .list-group-item {
+    cursor: pointer;
+}
+
+.address-suggestions .list-group-item:hover {
+    background-color: #f8f9fa;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #8B0000;
+    border-color: #8B0000;
+}
+
+.btn-primary:hover {
+    background-color: #5A2D0C;
+    border-color: #5A2D0C;
+}
+
+.btn-warning {
+    background-color: #FFC72C;
+    border-color: #FFC72C;
+    color: #5A2D0C;
+    font-weight: bold;
+}
+
+.btn-warning:hover {
+    background-color: #f2b600;
+    border-color: #f2b600;
+    color: #5A2D0C;
+}
+
+/* General card styling */
+.card {
+    border-radius: 10px;
+}
+
+/* Menu category cards */
+.card h3 {
+    font-weight: bold;
+}
+
+/* Search bar */
+.navbar form input {
+    min-width: 220px;
+}
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+    .slider-only-image {
+        height: 300px;
+        object-fit: contain;
+        background-color: #140000;
+    }
+
+    .site-logo {
+        width: 38px !important;
+        height: 38px !important;
+    }
+
+    .navbar form input {
+        min-width: 100%;
+    }
+
+    .product-card img {
+        height: 180px;
+    }
+}
