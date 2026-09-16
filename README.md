@@ -76,4 +76,4 @@ The site uses these tables:
 ## Author
 
 **Your Name**
-[LinkedIn]([https://www.linkedin.com/in/your-profile](https://www.linkedin.com/in/xavier-jolly-80017320a/)) · [Email]xmjolly@gmail.com)
+[LinkedIn:([https://www.linkedin.com/in/your-profile](https://www.linkedin.com/in/xavier-jolly-80017320a/)) · [Email:xmjolly@gmail.com)
