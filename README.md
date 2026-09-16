@@ -2,8 +2,6 @@
 
 A full-stack restaurant ordering website built with **PHP** and **MySQL**. Customers can browse the menu, search for items, add them to a cart and place orders. Staff use a password-protected admin panel to manage the menu, orders, images, customer messages and the site's color theme.
 
-![Home page](screenshots/home.png)
-
 ## Features
 
 ### Customer site
@@ -25,16 +23,6 @@ A full-stack restaurant ordering website built with **PHP** and **MySQL**. Custo
 - **Images:** upload files (JPG, PNG, WEBP, GIF) or link to an image URL, and attach images to products or categories, with search and pagination
 - **Site settings:** change heading, text, header, body and footer colors from the browser, without editing code
 - **Messages:** read and delete contact form submissions
-
-## Screenshots
-
-| Menu | Cart & Checkout |
-|------|-----------------|
-| ![Menu](screenshots/menu.png) | ![Checkout](screenshots/checkout.png) |
-
-| Admin Dashboard | Order Management |
-|-----------------|------------------|
-| ![Admin dashboard](screenshots/admin-dashboard.png) | ![Orders](screenshots/admin-orders.png) |
 
 ## Tech Stack
 
